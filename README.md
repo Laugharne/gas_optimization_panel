@@ -1,8 +1,6 @@
-# [](https://youtu.be/xqRmTx-hBUo?t=0) Introduction and Background
+# [**Gas Optimization Pannel With @dedohwale and @arzdev - YouTube**](https://www.youtube.com/watch?v=xqRmTx-hBUo)
 
 ![](2023-08-25-15-30-59.png)
-
-[**Gas Optimization Pannel With @dedohwale and @arzdev - YouTube**](https://www.youtube.com/watch?v=xqRmTx-hBUo)
 
 - https://twitter.com/dedohwale
 - https://twitter.com/arzdev
@@ -28,6 +26,8 @@ In this panel, you will learn how to approach gas optimizations in a more effici
 - [00:45:00](https://www.youtube.com/watch?v=xqRmTx-hBUo&t=2700s) The Coolest Gas-Optimization Technique
 
 ----
+
+## [](https://youtu.be/xqRmTx-hBUo?t=0) Introduction and Background
 
 **Section Overview**: In this section, the speakers introduce themselves and discuss their backgrounds in mathematics, data science, AI, and web development. They also mention their motivations for learning gas optimization.
 
