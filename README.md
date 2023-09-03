@@ -27,7 +27,7 @@ In this panel, you will learn how to approach gas optimizations in a more effici
 
 ----
 
-## [](https://youtu.be/xqRmTx-hBUo?t=0) Introduction and Background
+## [00:00](https://youtu.be/xqRmTx-hBUo?t=0) Introduction and Background
 
 **Section Overview**: In this section, the speakers introduce themselves and discuss their backgrounds in mathematics, data science, AI, and web development. They also mention their motivations for learning gas optimization.
 
@@ -77,34 +77,34 @@ Section Overview: In this section, the speaker discusses the importance of under
 - [11:54](https://youtu.be/xqRmTx-hBUo?t=714) There are various tips and tricks for optimizing gas usage in Solidity contracts. Caching array length can be one example.
 - [12:14](https://youtu.be/xqRmTx-hBUo?t=734) Practicing different approaches used by experienced developers can help improve gas efficiency.
 
-# [t=763s] Gas Efficiency in ERC721 Contracts
+# [12:43](https://youtu.be/xqRmTx-hBUo?t=763) Gas Efficiency in ERC721 Contracts
 
 Section Overview: The speaker discusses gas efficiency in ERC721 contracts compared to classic NFT contracts.
 
 - [12:43](https://youtu.be/xqRmTx-hBUo?t=763) The speaker mentions CRC721a as an example of an ERC721 contract that achieved significant gas savings compared to a classic NFT contract based on OpenZeppelin's implementation.
 
-# [t=810s] Gas Optimization for Smart Contracts
+# [13:30](https://youtu.be/xqRmTx-hBUo?t=810) Gas Optimization for Smart Contracts
 
 Section Overview: In this section, the speaker discusses gas optimization techniques for smart contracts, particularly in projects with a large number of users. They mention the efficiency of ERC-721 and ERC-721a standards, as well as the importance of learning how to access EVM's financials to eliminate unnecessary gas costs.
 
 ## Gas Optimization Techniques
 
-- [t=827s] Consider the gas efficiency of different token standards like ERC-721 and ERC-721a when dealing with batch minting or large numbers of users.
-- [t=853s] Learn how to access EVM's financials to eliminate unnecessary gas costs and optimize code.
-- [t=889s] Focus on continuous learning and exploring different gas optimization techniques.
-- [t=925s] Be aware that automated bots can find common optimizations like caching array length or unchecked transfers, so focus on more creative optimizations that bots may not catch.
-- [t=961s] Look for redundancies in code, potential bit shifts, and other opportunities for optimization by understanding what the code does.
-  
-# [t=1020s] Writing Gas Optimized Contracts
+- [13:47](https://youtu.be/xqRmTx-hBUo?t=827) Consider the gas efficiency of different token standards like ERC-721 and ERC-721a when dealing with batch minting or large numbers of users.
+- [14:13](https://youtu.be/xqRmTx-hBUo?t=853) Learn how to access EVM's financials to eliminate unnecessary gas costs and optimize code.
+- [14:49](https://youtu.be/xqRmTx-hBUo?t=889) Focus on continuous learning and exploring different gas optimization techniques.
+- [15:25](https://youtu.be/xqRmTx-hBUo?t=925) Be aware that automated bots can find common optimizations like caching array length or unchecked transfers, so focus on more creative optimizations that bots may not catch.
+- [16:01](https://youtu.be/xqRmTx-hBUo?t=961) Look for redundancies in code, potential bit shifts, and other opportunities for optimization by understanding what the code does.
+
+# [17:00](https://youtu.be/xqRmTx-hBUo?t=1020) Writing Gas Optimized Contracts
 
 Section Overview: This section focuses on strategies for writing gas optimized contracts. The speaker emphasizes starting with an efficient architecture, doing more of what is cheap and less of what is expensive, searching for tips and tricks (that may not be caught by bots), and always testing and benchmarking.
 
 ## Strategies for Writing Gas Optimized Contracts
 
-- [t=1054s] Start with an efficient architecture that minimizes data stored on-chain to reduce expensive storage operations.
-- [t=1109s] Organize your code to prioritize cheaper operations over expensive ones using salinity (memory usage) and assembly (eliminating redundant codes).
-- [t=1155s] Search for tips and tricks that can be manually implemented, such as pre-incrementing variables.
-- [t=1177s] Always test and benchmark your code to identify areas for improvement and rewrite accordingly.
+- [17:34](https://youtu.be/xqRmTx-hBUo?t=1054) Start with an efficient architecture that minimizes data stored on-chain to reduce expensive storage operations.
+- [18:29](https://youtu.be/xqRmTx-hBUo?t=1109) Organize your code to prioritize cheaper operations over expensive ones using salinity (memory usage) and assembly (eliminating redundant codes).
+- [19:15](https://youtu.be/xqRmTx-hBUo?t=1155) Search for tips and tricks that can be manually implemented, such as pre-incrementing variables.
+- [19:37](https://youtu.be/xqRmTx-hBUo?t=1177) Always test and benchmark your code to identify areas for improvement and rewrite accordingly.
 
 Note: The transcript is already in English, so there is no need to translate the headings or content.
 # [20:16](https://youtu.be/xqRmTx-hBUo?t=1216) Pre-increment and Contract Development
@@ -261,7 +261,7 @@ Section Overview: The speaker expresses gratitude towards Arc and Dead for their
 - The speaker thanks Arc for their tweets that helped them learn about Solidity and improve gas efficiency.
 - They also express gratitude towards Dead for teaching them about smart contract attacks through Twitter posts.
 - Both Arc and Dead are seen as inspirations by the speaker.
-# [t=0:39:15s] Private Auditing and Gas Optimization
+# [39:15](https://youtu.be/xqRmTx-hBUo?t=2355) Private Auditing and Gas Optimization
 
 Section Overview: The speaker discusses the concept of private auditing and gas optimization in the context of code contests and protocol audits. They raise questions about the benefits of participating in contests versus performing private audits, as well as the timing of gas optimization in relation to overall code auditing.
 
@@ -276,7 +276,7 @@ Section Overview: The speaker discusses the concept of private auditing and gas 
 - Performing a gas audit before a security audit is recommended to avoid introducing additional bugs through gas optimizations.
 - Gas optimizations can make it harder to understand the function's purpose, especially when complex algorithms are involved.
 
-# [t=0:44:08s] Challenges of Auditing Complex Algorithms
+# [44:08](https://youtu.be/xqRmTx-hBUo?t=2648) Challenges of Auditing Complex Algorithms
 
 Section Overview: The speaker discusses the challenges faced when auditing complex algorithms implemented on the EVM (Ethereum Virtual Machine). They highlight difficulties in reviewing code written in assembly language and emphasize the importance of having auditors who are knowledgeable about assembly.
 
@@ -290,7 +290,7 @@ Section Overview: The speaker discusses the challenges faced when auditing compl
 - Lack of familiarity with assembly language makes it harder for auditors to effectively review code.
 - Assembly expertise is crucial for understanding and optimizing gas usage efficiently.
 
-# [t=0:45:02s] Coolest Gas Optimization Techniques
+# [45:02](https://youtu.be/xqRmTx-hBUo?t=2702) Coolest Gas Optimization Techniques
 
 Section Overview: The speaker shares their favorite gas optimization technique, highlighting the benefits of bit shifting and its application in optimizing code.
 
